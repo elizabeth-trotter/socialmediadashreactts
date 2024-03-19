@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
+import HeaderComponent from './Components/HeaderComponent';
+import MainComponent from './Components/MainComponent';
+import OverviewComponent from './Components/OverviewComponent';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <HeaderComponent />
+      <MainComponent />
+      <OverviewComponent />
+    </>
   );
 }
 
