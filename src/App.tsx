@@ -6,11 +6,11 @@ import OverviewComponent from './Components/OverviewComponent';
 
 function App() {
   return (
-    <>
+    <main className='px-7 pt-8 max-w-7xl mx-auto'>
       <HeaderComponent />
       <MainComponent />
       <OverviewComponent />
-    </>
+    </main>
   );
 }
 

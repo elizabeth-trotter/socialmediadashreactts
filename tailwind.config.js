@@ -14,7 +14,7 @@ module.exports = {
           'instagram-gradient': 'linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%))',
           'youtube': 'hsl(348, 97%, 39%)'
         },
-        dark: {
+        darkMode: {
           'toggle': 'linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))',
           'very-dark-blue-bg': 'hsl(230, 17%, 14%)',
           'very-dark-blue-top-bg-pattern': 'hsl(232, 19%, 15%)',
@@ -22,7 +22,7 @@ module.exports = {
           'desaturated-blue-text': 'hsl(228, 34%, 66%)',
           'white-text': 'hsl(0, 0%, 100%)',
         },
-        light: {
+        lightMode: {
           'toggle': 'hsl(230, 22%, 74%)',
           'white-bg': 'hsl(0, 0%, 100%)',
           'very-pale-blue-top-bg-pattern': 'hsl(225, 100%, 98%)',
