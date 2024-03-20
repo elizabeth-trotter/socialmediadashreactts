@@ -23,7 +23,7 @@ body {
 }
 
 .label {
-  @apply bg-lightMode-toggle;
+  background: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
   position: relative;
   display: flex;
   align-items: center;
@@ -37,7 +37,7 @@ body {
 }
 
 .ball {
-  background: #fff;
+  background: hsl(230, 17%, 14%);
   position: absolute;
   top: 2px;
   left: 4px;
@@ -49,8 +49,9 @@ body {
 
 .checkbox:checked + .label .ball {
   transform: translateX(24px);
+  background: hsl(0, 0%, 100%);
 }
 
 .checkbox:checked + .label {
-  background: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+  background: hsl(230, 22%, 74%);
 }
