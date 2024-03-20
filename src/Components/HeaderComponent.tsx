@@ -1,17 +1,17 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const HeaderComponent = () => {
     const [darkMode, setDarkMode] = useState(false);
 
-    const handleToggle = () => {
-        const body = document.querySelector("body");
-
+    useEffect(() => {
         if (darkMode) {
-            body?.classList.add("dark");
+            document.documentElement.classList.add('dark');
         } else {
-            body?.classList.remove("dark");
+            document.documentElement.classList.remove('dark');
         }
+    }, [darkMode]);
 
+    const handleToggle = () => {
         setDarkMode(!darkMode);
     }
 
