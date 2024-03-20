@@ -10,7 +10,7 @@ const MainComponent = () => {
     return (
         <main className='max-w-7xl mx-auto relative z-10'>
             <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 py-10'>
-                <div className='bg-lightMode-light-grayish-blue-card-bg rounded-lg text-center dark:bg-darkMode-dark-desaturated-blue-card-bg'>
+                <div className='card bg-lightMode-light-grayish-blue-card-bg rounded-lg text-center dark:bg-darkMode-dark-desaturated-blue-card-bg'>
                     <div className='bg-primary-facebook h-1 rounded-t-lg'></div>
                     <div className='flex justify-center items-center gap-2 py-5'>
                         <img src={facebook} alt="facebook logo" />
@@ -26,7 +26,7 @@ const MainComponent = () => {
                     </p>
                 </div>
 
-                <div className='bg-lightMode-light-grayish-blue-card-bg rounded-lg text-center dark:bg-darkMode-dark-desaturated-blue-card-bg'>
+                <div className='card bg-lightMode-light-grayish-blue-card-bg rounded-lg text-center dark:bg-darkMode-dark-desaturated-blue-card-bg'>
                     <div className='bg-primary-twitter h-1 rounded-t-lg'></div>
                     <div className='flex justify-center items-center gap-2 py-5'>
                         <img src={twitter} alt="twitter logo" />
@@ -42,7 +42,7 @@ const MainComponent = () => {
                     </p>
                 </div>
 
-                <div className='bg-lightMode-light-grayish-blue-card-bg rounded-lg text-center dark:bg-darkMode-dark-desaturated-blue-card-bg'>
+                <div className='card bg-lightMode-light-grayish-blue-card-bg rounded-lg text-center dark:bg-darkMode-dark-desaturated-blue-card-bg'>
                     <div className='bg-gradient-to-r from-yellow-200 to-pink-500 h-1 rounded-t-lg'></div>
                     <div className='flex justify-center items-center gap-2 py-5'>
                         <img src={instagram} alt="instagram logo" />
@@ -58,7 +58,7 @@ const MainComponent = () => {
                     </p>
                 </div>
 
-                <div className='bg-lightMode-light-grayish-blue-card-bg rounded-lg text-center dark:bg-darkMode-dark-desaturated-blue-card-bg'>
+                <div className='card bg-lightMode-light-grayish-blue-card-bg rounded-lg text-center dark:bg-darkMode-dark-desaturated-blue-card-bg'>
                     <div className='bg-primary-youtube h-1 rounded-t-lg'></div>
                     <div className='flex justify-center items-center gap-2 py-5'>
                         <img src={youtube} alt="youtube logo" />

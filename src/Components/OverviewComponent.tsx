@@ -13,7 +13,7 @@ const OverviewComponent = () => {
 
             <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7'>
                 {/* First Row */}
-                <div className='bg-lightMode-light-grayish-blue-card-bg rounded-lg p-7 dark:bg-darkMode-dark-desaturated-blue-card-bg'>
+                <div className='card bg-lightMode-light-grayish-blue-card-bg rounded-lg p-7 dark:bg-darkMode-dark-desaturated-blue-card-bg'>
                     <div className='flex justify-between items-center pb-5'>
                         <p className='text-lightMode-dark-grayish-blue-text font-bold dark:text-slate-400'>Page Views</p>
                         <img src={facebook} alt="facebook logo" />
@@ -29,7 +29,7 @@ const OverviewComponent = () => {
                     </div>
                 </div>
 
-                <div className='bg-lightMode-light-grayish-blue-card-bg rounded-lg p-7 dark:bg-darkMode-dark-desaturated-blue-card-bg'>
+                <div className='card bg-lightMode-light-grayish-blue-card-bg rounded-lg p-7 dark:bg-darkMode-dark-desaturated-blue-card-bg'>
                     <div className='flex justify-between items-center pb-5'>
                         <p className='text-lightMode-dark-grayish-blue-text font-bold dark:text-slate-400'>Likes</p>
                         <img src={facebook} alt="facebook logo" />
@@ -45,7 +45,7 @@ const OverviewComponent = () => {
                     </div>
                 </div>
 
-                <div className='bg-lightMode-light-grayish-blue-card-bg rounded-lg p-7 dark:bg-darkMode-dark-desaturated-blue-card-bg'>
+                <div className='card bg-lightMode-light-grayish-blue-card-bg rounded-lg p-7 dark:bg-darkMode-dark-desaturated-blue-card-bg'>
                     <div className='flex justify-between items-center pb-5'>
                         <p className='text-lightMode-dark-grayish-blue-text font-bold dark:text-slate-400'>Likes</p>
                         <img src={instagram} alt="instagram logo" />
@@ -61,7 +61,7 @@ const OverviewComponent = () => {
                     </div>
                 </div>
 
-                <div className='bg-lightMode-light-grayish-blue-card-bg rounded-lg p-7 dark:bg-darkMode-dark-desaturated-blue-card-bg'>
+                <div className='card bg-lightMode-light-grayish-blue-card-bg rounded-lg p-7 dark:bg-darkMode-dark-desaturated-blue-card-bg'>
                     <div className='flex justify-between items-center pb-5'>
                         <p className='text-lightMode-dark-grayish-blue-text font-bold dark:text-slate-400'>Profile Views</p>
                         <img src={instagram} alt="instagram logo" />
@@ -78,7 +78,7 @@ const OverviewComponent = () => {
                 </div>
 
                 {/* Second Row */}
-                <div className='bg-lightMode-light-grayish-blue-card-bg rounded-lg p-7 dark:bg-darkMode-dark-desaturated-blue-card-bg'>
+                <div className='card bg-lightMode-light-grayish-blue-card-bg rounded-lg p-7 dark:bg-darkMode-dark-desaturated-blue-card-bg'>
                     <div className='flex justify-between items-center pb-5'>
                         <p className='text-lightMode-dark-grayish-blue-text font-bold dark:text-slate-400'>Retweets</p>
                         <img src={twitter} alt="twitter logo" />
@@ -94,7 +94,7 @@ const OverviewComponent = () => {
                     </div>
                 </div>
 
-                <div className='bg-lightMode-light-grayish-blue-card-bg rounded-lg p-7 dark:bg-darkMode-dark-desaturated-blue-card-bg'>
+                <div className='card bg-lightMode-light-grayish-blue-card-bg rounded-lg p-7 dark:bg-darkMode-dark-desaturated-blue-card-bg'>
                     <div className='flex justify-between items-center pb-5'>
                         <p className='text-lightMode-dark-grayish-blue-text font-bold dark:text-slate-400'>Likes</p>
                         <img src={twitter} alt="twitter logo" />
@@ -110,7 +110,7 @@ const OverviewComponent = () => {
                     </div>
                 </div>
 
-                <div className='bg-lightMode-light-grayish-blue-card-bg rounded-lg p-7 dark:bg-darkMode-dark-desaturated-blue-card-bg'>
+                <div className='card bg-lightMode-light-grayish-blue-card-bg rounded-lg p-7 dark:bg-darkMode-dark-desaturated-blue-card-bg'>
                     <div className='flex justify-between items-center pb-5'>
                         <p className='text-lightMode-dark-grayish-blue-text font-bold dark:text-slate-400'>Likes</p>
                         <img src={youtube} alt="youtube logo" />
@@ -126,7 +126,7 @@ const OverviewComponent = () => {
                     </div>
                 </div>
 
-                <div className='bg-lightMode-light-grayish-blue-card-bg rounded-lg p-7 dark:bg-darkMode-dark-desaturated-blue-card-bg'>
+                <div className='card bg-lightMode-light-grayish-blue-card-bg rounded-lg p-7 dark:bg-darkMode-dark-desaturated-blue-card-bg'>
                     <div className='flex justify-between items-center pb-5'>
                         <p className='text-lightMode-dark-grayish-blue-text font-bold dark:text-slate-400'>Total Views</p>
                         <img src={youtube} alt="youtube logo" />
