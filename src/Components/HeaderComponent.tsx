@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 const HeaderComponent = () => {
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState<boolean>(false);
 
     useEffect(() => {
         if (darkMode) {
@@ -30,7 +30,7 @@ const HeaderComponent = () => {
                 {/* Toggle */}
                 <div className="toggle">
                     <label htmlFor="checkbox" className="font-bold text-slate-600 dark:text-slate-400 text-sm cursor-pointer pr-36 md:pr-0">Dark Mode</label>
-                    <input type="checkbox" className="checkbox" id="checkbox" checked={!darkMode} onChange={handleToggle} />
+                    <input type="checkbox" className="checkbox" id="checkbox" checked={!darkMode} onClick={handleToggle} />
                     <label htmlFor="checkbox" className="label">
                         <div className="ball"></div>
                     </label>
