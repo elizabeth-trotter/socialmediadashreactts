@@ -16,7 +16,9 @@ Created a single page Social Media Dashboard from a given prototype using `React
 - Light or Dark Mode
 
 **Peer Review:**
+
 Name: Caleb Syliva
+
 Comment(s): The site looks good for mobile and desktop. There isn't anything I see that I can critique on it looks exactly how it should be. Well done per usual!
 
 
